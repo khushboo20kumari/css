@@ -1,14 +1,12 @@
-function Zindex(){
-   return(
-    <>
-    <div>
-        <div className="box1" style={{background:"black",height:"200px",width:"200px"}}>box1</div>
-        <div className="box2" style={{background:"blue",height:"200px",width:"200px"}}>box1</div>
-        <div className="box3" style={{background:"pink",height:"200px",width:"200px"}}>box1</div>
-        <div className="box4" style={{background:"green",height:"200px",width:"200px"}}>box1</div>
-        
-    </div>
-    </>
-   )
+function Zindex() {
+    return (
+        <>
+            <div class="container">
+                <div class="box box1">Box 1</div>
+                <div class="box box2">Box 2</div>
+                <div class="box box3">Box 2</div>
+            </div>
+        </>
+    )
 }
 export default Zindex;
